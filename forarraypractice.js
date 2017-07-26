@@ -1,0 +1,1 @@
+vary myArray = [2 "A" true]
