@@ -1,0 +1,96 @@
+body {
+    background-color: #E31515;
+}
+h1 {
+    color: black;
+}
+p {
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+     border: 1px solid #555;
+}
+}
+
+{
+    background: blue;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.singleBurger
+{
+    border: solid 3px purple;
+    background-color: red;
+}
+
+.mainContent
+{
+    border: dashed 5px yellow;
+}'
+
+{
+
+}
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #55;
+    border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+[1:57] 
+body
+{
+    background: blue;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+}
+
+.singleBurger
+{
+    border: solid 3px purple;
+    background-color: red;
+}
+
+.mainContent
+{
+    border: dashed 5px yellow;
+}
+
+p{
+    width:64%;
+    vertical-align: middle;
+    
+}
+
+
+[1:58] 
+Use that one */

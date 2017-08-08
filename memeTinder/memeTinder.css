@@ -1,0 +1,38 @@
+iframe {
+ border-width:5px;  
+    border-style:outset;
+    align-content: center;
+    position:600px,300px;
+
+  
+}
+html{
+    background: url("https://cdn.pixabay.com/photo/2017/03/15/19/47/donald-2147250_640.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.likememe{
+    position: relative;
+    left: 300px;
+    margin-top: 300px;
+    /*border: 10px solid cyan;*/
+    background-color: red;
+    width: 150px;
+    height: 50px;
+}
+.dislikememe{
+    position: relative;
+    left: 740px;
+    margin-top: 300px;
+    background-color: red;
+    width: 150px;
+    height: 50px;
+}
+
+h1{
+    text-align: center;
+    color: black;
+    font-family: ;
+    font-size:;
+    
+}

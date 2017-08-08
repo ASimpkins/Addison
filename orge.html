@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Ogre's World </title>
+    </head>
+    <body>
+        
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script>
+            
+        function attack() {
+            if(Math.random()*100>gold){
+                gold= gold+10;
+                numberDefeated++;
+                $("orgers").prepend(
+                    <p style="color:green">You Won Gold.
+        
+
+                );
+            }
+        }
+            
+            else {
+                //-- is subrtracting 1 
+                gold--;
+                life--;
+                //use .append and .prepend to add hhtml
+                $('#ogres').prepend(
+                    "<p style='color:green'>YOU WON10 gold coins. </p> "
+                );
+            }
+            
+            else {
+                $("#orges").prepend(
+                    "<h1> GAME OVER!!!</h1>"
+                );
+            }
+            
+            function makeOrge() {
+                $("#orges").pre (
+                "<img src = 'https://vignette2.wikia.nocookie.net/runescape2/images/3/32/Ogre_GWD.png/revision/latest?cb=20130409211620'>"
+                );
+            }
+            
+            $(document).ready(function(){
+                var HP = 100;
+                var gold = 0;
+                var numberDefeated = 0;
+                
+                $("body").append("<h1>Welcome to the Ogre Fighter!</h1>"); //Title
+                $("body").append("<div><h3>STATS:</h3> <p id='stats'></p></div>"); //Adds stats section
+                $("body").append("<button onclick='attack()'> Attack the Ogre!</button>"); //Button that links to attack function
+                
+                
+                function updateStats(){
+                    $("#stats").text("HP: " + HP + " " + "Gold: " + gold + " " + "Ogres Slain: " + numberDefeated);
+                }
+                updateStats();
+            });
+        </script>
+    </body>
+</html>
